@@ -1,0 +1,128 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    color: rgb(119, 119, 119);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+span{
+    color: rgb(119, 119, 119);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.dropdown .btn{
+    color: rgb(119, 119, 119);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.container{
+    max-width: 1222px;
+}
+
+.nav-2 .row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-2 .row-1 .search, .nav-2 .row-1 .comp-3{
+    display: flex;
+    align-items: center;
+}
+
+.nav-2 .row-1 .comp-1 img{
+    max-width: 245px;
+}
+
+.nav-2 .row-1 .comp-2{
+    flex: 2;
+}
+
+.nav-2 .row-1 .comp-2 .search{
+    margin: 0 35px;
+    border: 2px solid #dddddd;
+    padding: 0 10px;
+}
+
+.nav-2 .row-1 .comp-2 .search input{
+    width: 100%;
+    border: none;
+    padding: 5px 0;
+}
+
+.nav-2 .row-1 .comp-2 .search .dropdown{
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+    margin-right: 10px;
+    padding: 5px 0;
+}
+
+.nav-2 .row-1 .comp-3 a{
+    margin: 0 10px;
+    font-size: 17px;
+    position: relative;
+}
+
+.nav-2 .row-1 .comp-3 a i{
+    font-size: 22px;
+}
+
+.nav-2 .row-1 .comp-3 .counter{
+    position: absolute;
+    top: -12px;
+    left: 17px;
+    background: #C42D3C;
+    width: 15px;
+    height: 15px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.nav-2 .row-1 .comp-3 .totalprice{
+    margin-left: 15px;
+}
+
+@media (max-width: 1022px){
+
+    .nav-2 .comp-2{
+        display: none;
+    }
+
+    .nav-2 .comp-3 .login, .nav-2 .comp-3 .wishlist{
+        display: none;
+    }
+
+}
+
+@media (max-width: 560px){
+    .nav-2 .row-1 .comp-1 img{
+        max-width: 150px;
+    }
+}
+
+.nav-3 .navbar{
+    background-color: rgb(219 51 64);
+}
+
+.nav-3 .navbar .nav-link{
+    color: white;
+}
+
+@media (max-width: 992px){
+
+    .nav-3 .navbar{
+        padding-top: 0.3rem;
+        padding-bottom: 0;
+    }
+
+}
